@@ -6,7 +6,7 @@ def reverse_each_word (sentence1)
   sentence2.join(" ")
 end
 
-def reverse_each_word_2 (sentence1)
+def reverse_each_word (sentence1)
   sentence2 = sentence1.split(" ") #changed to string
   reverse = [] #new array to push reverse order
   sentence2.each do |word|
